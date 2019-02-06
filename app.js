@@ -1,4 +1,4 @@
-const env = require('.appAccessKeys')
+const appAccess = require('.appAccessKeys')
 
 // installed npm aws-sdk, importing packages
 // fs package will be used to write file data in app
@@ -34,5 +34,3 @@ const uploadFile = () => {
 };
 
 uploadFile();
-
-module.exports = env;

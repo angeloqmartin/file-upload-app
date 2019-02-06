@@ -1,4 +1,5 @@
 node_modules/
+appAccessKeys.js
 
 # Logs
 logs
